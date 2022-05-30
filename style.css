@@ -47,7 +47,7 @@ body {
 
 .list {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .li,
@@ -55,14 +55,14 @@ body {
   list-style: none;
 }
 
-.nput,
+.input,
 .button {
   outline: none;
 }
 
 .button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -143,12 +143,12 @@ body {
 
 .delete-img {
   height: 2em;
-  transform: rotateZ(45deg);
+  transform: rotate(45deg);
   transition: transform 200ms ease-in;
 }
 
 .delete-img:hover {
-  transform: rotateZ(0);
+  transform: rotate(0);
 }
 
 /* Completed */
